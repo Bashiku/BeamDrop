@@ -1,5 +1,8 @@
 # BeamDrop P2P - Direct P2P File & Folder Transfer
 
+![Version](https://img.shields.io/badge/version-v0.1-00f0ff.svg?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-purple.svg?style=flat-square)
+
 BeamDrop P2P is a modern desktop application designed for secure, direct, and high-speed device-to-device file and folder transfers without relying on intermediate cloud storage servers.
 
 ---
