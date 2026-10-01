@@ -1,18 +1,23 @@
-# BeamDrop P2P - Direct P2P File and Folder Transfer (Lightweight Edition)
+# BeamDrop P2P - Direct P2P File & Folder Transfer
 
-BeamDrop P2P is a modern desktop application that enables direct, encrypted, and high-speed device-to-device (Peer-to-Peer) file transfer without relying on any cloud service.
-
-Powered by the native Windows Microsoft Edge WebView2 runtime and a Python backend, it comes in at just **14.3 MB**.
+BeamDrop P2P is a modern desktop application designed for secure, direct, and high-speed device-to-device file and folder transfers without relying on intermediate cloud storage servers.
 
 ---
 
 ## Key Features
 
-- **Ultra-Lightweight Footprint (14.3 MB):** Unlike the previous Electron version (~110 MB), all redundant libraries have been stripped out, reducing the size by 8x.
-- **Custom Destination Folder:** Incoming files are written directly to the user-selected directory.
-- **Both Internet (WebRTC NAT Punch) & LAN (Wi-Fi):** Transfer across different networks using a single room code or locally over the same Wi-Fi.
-- **Large File & Folder Support (Zero-RAM Streaming):** Files are streamed directly to disk rather than buffered in RAM.
-- **3 Selectable Enterprise Themes:** Midnight Obsidian (Dark), Nordic Slate (Navy), and Pure Light.
-- **Bilingual Interface:** Built-in Turkish and English language support.
-- **Zero Emojis & Crisp Vector SVGs:** Clean, enterprise-ready UI icons throughout.
-- **Integrity Verification (SHA-256):** Checksum validation to ensure transferred files remain uncorrupted.
+- **Direct Peer-to-Peer Transfer:** Send files directly across the internet via WebRTC NAT traversal using a simple room code, or quickly transfer within the same local network (LAN / Wi-Fi).
+- **End-to-End Encrypted & Private:** Transfers happen straight between sender and receiver with no central server storing your data.
+- **Large File & Folder Support:** Stream large files and directory trees directly to disk without exhausting system memory.
+- **Custom Destination Directory:** Choose exactly where incoming files and folders are saved before or during transfer.
+- **Integrity Verification (SHA-256):** Automatic checksum validation guarantees that transferred files arrive intact and uncorrupted.
+- **Modern, Enterprise UI:** Clean vector interface with selectable themes (Midnight Obsidian, Nordic Slate, and Pure Light).
+- **Bilingual Support:** Seamlessly switch between English and Turkish interface languages.
+
+---
+
+## How It Works
+
+1. **Connect:** Launch the app on both devices and connect via a generated room code or automatic local discovery.
+2. **Select:** Drag and drop files or entire folders into the application.
+3. **Transfer:** Files stream directly to the recipient's chosen directory with real-time progress and verification.
